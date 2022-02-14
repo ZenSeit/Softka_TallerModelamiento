@@ -18,13 +18,13 @@ public class ManyM {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        System.out.println("Method 1");
+    public static void main(String[] args) { //Sin embargo, cuando tenemos metodos main en diferentes clases, solo basta con seleccionar el metodo por el cual queremos
+        System.out.println("Method 1");// ejecutar la app. Para realizar esto lo podemos hacer en propiedades del proyecto, en el apartado de ejecutar, main class.
         main(2.0);
         main("");
     }
     
-    public static void main(Double args) {
+    public static void main(Double args) {  //En conclusion es posbible tener muchos metodos main en una misma clase o en diferentes clases de un mismo proyecto.
         System.out.println("Method 2");
     }
     

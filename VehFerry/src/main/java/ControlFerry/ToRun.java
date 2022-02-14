@@ -24,8 +24,10 @@ public class ToRun {
         int pass, tires, cr, i = 1;
         String reg, col;
         boolean cre = false;
+        
         System.out.println("-----Welcome to FeRRy-----");
         System.out.println("Type the information to register the vehicle in our system.");
+        
         do {
             System.out.println("Vehicle #" + i);
             System.out.println("Enter number of passangers' sits: ");

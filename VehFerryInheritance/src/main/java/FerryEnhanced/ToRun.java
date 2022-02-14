@@ -27,8 +27,10 @@ public class ToRun {
         int pass, tires, cr, i = 1,hel;
         String reg, col;
         boolean cre = false, tra = false;
+        
         System.out.println("-----Welcome to FeRRy-----");
         System.out.println("Type the information to register the vehicle in our system.");
+        
         do {
             System.out.println("Vehicle #" + i);
             System.out.println("Enter number of passangers' sits: ");
@@ -53,6 +55,7 @@ public class ToRun {
             System.out.println("Select the type of vehicle: "); // Se pregunta al usuario que tipo de vehiculo es el que se va a guardar y se usas un switch para cambiar procesos.
             System.out.println("1.Car" + "\n2.Truck" + "\n3.MotorBike" + "\n4.Bike");
             cr = str3.nextInt();
+            
             switch (cr) {
                 case 1:
                     System.out.println("Car's version: \nCould be: \nSedan or SUV and others.");

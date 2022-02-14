@@ -20,6 +20,7 @@ public class ToRun {
         Vector ve = new Vector(); //Se instancia la clase vector para pruebas y ver funcionamiento.
         Scanner leer = new Scanner(System.in);
         int num, temp = 0, temp2 = 0, cont = 0;
+        
         do {
             System.out.println("If you enter the same number twice in a row, the app stops. \nType a number to save: ");
             num = leer.nextInt();
