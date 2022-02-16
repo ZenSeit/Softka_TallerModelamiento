@@ -5,16 +5,24 @@
 package FerryEnhanced;
 
 /**
- *
+ *Clase vehiculo que define como seran los vehiculos que se esperan recibir en el Ferry
  * @author diego
  */
 public class Vehicle {
-    protected int PasNum;//Se definen para la clase vehiculo 5 atributos y 4 metodos diferentes a los getters y setters
-    protected boolean CrewIn;//Los metodos definidos son StarVehicle,StarLights,SpeedUp,Brake.
+    protected int PasNum;
+    protected boolean CrewIn;
     protected int TiresNum;
     protected String RegYear;
     protected String colour;
 
+    /**
+     * 
+     * @param PasNum Numero de pasajeros que puede recibir
+     * @param CrewIn Presenta tripulacion
+     * @param TiresNum Numero de ruedas
+     * @param RegYear Anio de resgistro o matricula
+     * @param colour Color
+     */
     public Vehicle(int PasNum, boolean CrewIn, int TiresNum, String RegYear, String colour) {
         this.PasNum = PasNum;
         this.CrewIn = CrewIn;
@@ -63,18 +71,34 @@ public class Vehicle {
         this.colour = colour;
     }
     
+    /**
+     * Metodo para encender el vehiculo
+     * @return 
+     */
     public String StarVehicle(){
         return "Your vehicle is on";
     }
     
+    /**
+     * Metodo para encender luces
+     * @return 
+     */
     public String Starlights(){
         return "Your lights are on";
     }
     
+    /**
+     * Metodo para acelerar
+     * @return 
+     */
     public String SpeedUp(){
         return "Your vehicle is spedding up";
     }
     
+    /**
+     * Metodo para frenar
+     * @return 
+     */
     public String Brake(){
         return "Your vehicle is braking";
     }

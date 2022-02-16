@@ -7,12 +7,12 @@ package Order;
 import java.util.Scanner;
 
 /**
- *
+ * Clase Main, que genera 5 numeros aleatorios y los ordena segun indique el usuario entre metodo QuickSort o Bubble order
  * @author diego
  */
 public class ToRun {
 
-    /**
+    /** 
      * @param args the command line arguments
      */
     public static void main(String[] args) {

@@ -5,12 +5,21 @@
 package FerryEnhanced;
 
 /**
- *
+ *Clase camion que agregar el atributo presencia de trailer
  * @author diego
  */
 public class Truck extends Vehicle{
-    private boolean aretrailer; //Se incluye un atributo diferente para diferenciar la clase de la super.
+    private boolean aretrailer;
 
+    /**
+     * 
+     * @param aretrailer Tiene trailer o no
+     * @param PasNum
+     * @param CrewIn
+     * @param TiresNum
+     * @param RegYear
+     * @param colour 
+     */
     public Truck(boolean aretrailer, int PasNum, boolean CrewIn, int TiresNum, String RegYear, String colour) {
         super(PasNum, CrewIn, TiresNum, RegYear, colour);
         this.aretrailer = aretrailer;

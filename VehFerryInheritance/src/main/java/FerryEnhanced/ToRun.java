@@ -8,12 +8,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- *
+ *Clase Main que solicita datos de vehiculos para crearlos; pero solicita al usuario que especifique el tipo de vehiculo entre Carro,Camion,Moto y Bici
+ * Una vez se ingresan 10 vehiculos, se listan cada uno de ellos con sus caracteristicas.
  * @author diego
  */
 public class ToRun {
 
-    /**
+    /** 
      * @param args the command line arguments
      */
     public static void main(String[] args) {

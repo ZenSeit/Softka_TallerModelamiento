@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.Vector;
 
 /**
- *
+ *Clase Main para probar el funcionamiento de la clase vector
  * @author diego
  */
 public class ToRun {

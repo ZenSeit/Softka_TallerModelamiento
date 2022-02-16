@@ -5,12 +5,19 @@
 package Order;
 
 /**
- *
+ * Clase que tiene alojados los metodos de ordenamiento
  * @author diego
  */
 public class OrderMeth {
 
-    public double[] QuickSort(double[] nums, int one, int last) { //Algoritmo QuickSort
+    /**
+     * Metodo que pide un arreglo de numeros y los ordena siguiendo QuickSort y retorna el arreglo ordenado
+     * @param nums Arreglo de numeros
+     * @param one Primera posicion del arreglo
+     * @param last Ultima posicion del arreglo
+     * @return 
+     */
+    public double[] QuickSort(double[] nums, int one, int last) { 
         int i, j;
         double piv, temp;
         i = one;
@@ -43,7 +50,12 @@ public class OrderMeth {
         return nums;
     }
 
-    public double[] BubbleSort(double[] nums) { //Algoritmo Burbuja
+    /**
+     * Metodo que ordena numeros siguiendo el metodo de burbuja y retorna el arreglo ordenado
+     * @param nums Arreglo de numeros
+     * @return 
+     */
+    public double[] BubbleSort(double[] nums) {
         for (int i = 1; i < nums.length; i++) {
             for (int j = 0; j < nums.length - 1; j++) {
                 if (nums[j] > nums[j + 1]) {

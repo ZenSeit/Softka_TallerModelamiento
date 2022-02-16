@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- *
+ *Metodo Main, que mediante un menu pide que se ingresen los datos para instanciar vehiculos. Depues de ingresar 10 vehiculos se listan todos con
+ * sus respectivas caracteristicas
  * @author diego
  */
 public class ToRun {

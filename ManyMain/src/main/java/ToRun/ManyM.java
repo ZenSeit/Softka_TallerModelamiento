@@ -5,15 +5,12 @@
 package ToRun;
 
 /**
- *
+ *Usando el concepto de sobrecarga de metodos, es posible tener varios metodos main,
+ * sin embargo el JVM va a identificar el metodo que viene por defecto como el principal
  * @author diego
  */
 public class ManyM {
     
-    /* 
-    Usando el concepto de sobrecarga de metodos, es posible tener varios metodos main,
-    sin embargo el JVM va a identificar el metodo que viene por defecto como el principal
-    */
 
     /**
      * @param args the command line arguments

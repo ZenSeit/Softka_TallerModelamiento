@@ -5,13 +5,22 @@
 package FerryEnhanced;
 
 /**
- *
+ *Clase moto que incluye atributo numero de cascos
  * @author diego
  */
 public class MotorBike extends Vehicle {
     
     private int helmetnumber; //Se incluye un atributo diferente para diferenciar la clase de la super.
 
+    /**
+     * 
+     * @param helmetnumber Numero de cascos que presenta en el ingreso
+     * @param PasNum
+     * @param CrewIn
+     * @param TiresNum
+     * @param RegYear
+     * @param colour 
+     */
     public MotorBike(int helmetnumber, int PasNum, boolean CrewIn, int TiresNum, String RegYear, String colour) {
         super(PasNum, CrewIn, TiresNum, RegYear, colour);
         this.helmetnumber = helmetnumber;

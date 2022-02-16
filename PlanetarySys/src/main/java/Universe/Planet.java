@@ -5,14 +5,24 @@
 package Universe;
 
 /**
- *
+ *Se incluyen dos caracteristicas para los planetas como son velocidad de escape y distancia al sol
  * @author diego
  */
 public class Planet extends CelestialBody{
     
-    private double EscapeVel; /* Se incluyen dos caracteristicas para los planetas como son velocidad de escape y distancia al sol */
+    private double EscapeVel;
     private double distosun;
 
+    /**
+     * Contruccion para instanciar un planeta
+     * @param id
+     * @param name
+     * @param mass
+     * @param density
+     * @param diameter
+     * @param EscapeVel Velocidad de escape
+     * @param distosun  Distancia del sol
+     */
     public Planet(int id, String name, double mass, double density, double diameter,double EscapeVel, double distosun) {
         super(id, name, mass, density, diameter);
         this.EscapeVel = EscapeVel;
@@ -36,6 +46,14 @@ public class Planet extends CelestialBody{
     public void setDistosun(double distosun) {
         this.distosun = distosun;
     }
+    
+    /**
+     * Metodo para el calculo de fuerza gravitacional
+     * @param mass1
+     * @param mass2
+     * @param dist Distancia entre el planeta y el sol
+     * @return 
+     */
 
     @Override
     public double attractionbtw2(double mass1, double mass2,double dist) {

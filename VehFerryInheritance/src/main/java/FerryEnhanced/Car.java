@@ -5,13 +5,22 @@
 package FerryEnhanced;
 
 /**
- *
+ *Clase carro que incluye el atributo tipo de carro
  * @author diego
  */
 public class Car extends Vehicle {
     
     private String TypeCar; //Se incluye un atributo diferente para diferenciar la clase de la super.
 
+    /**
+     * 
+     * @param TypeCar tipo de carro(sedan,SUV,etc)
+     * @param PasNum
+     * @param CrewIn
+     * @param TiresNum
+     * @param RegYear
+     * @param colour 
+     */
     public Car(String TypeCar, int PasNum, boolean CrewIn, int TiresNum, String RegYear, String colour) {
         super(PasNum, CrewIn, TiresNum, RegYear, colour);
         this.TypeCar = TypeCar;

@@ -5,13 +5,22 @@
 package FerryEnhanced;
 
 /**
- *
+ *Clase cicla que incluye atributo fuente de energia
  * @author diego
  */
 public class Bike extends Vehicle {
     
     private String SrcEnergy; //Se incluye un atributo diferente para diferenciar la clase de la super.
 
+    /**
+     * 
+     * @param SrcEnergy Fuente de energia (Bateria o tradicional)
+     * @param PasNum
+     * @param CrewIn
+     * @param TiresNum
+     * @param RegYear
+     * @param colour 
+     */
     public Bike(String SrcEnergy, int PasNum, boolean CrewIn, int TiresNum, String RegYear, String colour) {
         super(PasNum, CrewIn, TiresNum, RegYear, colour);
         this.SrcEnergy = SrcEnergy;

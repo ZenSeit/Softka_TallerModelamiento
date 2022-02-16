@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 /**
- *
+ *Clase Main que simula la fuerza gravitatoria existente entre el sol y un planeta(Tierra)
  * @author diego
  */
 public class ToRun {
